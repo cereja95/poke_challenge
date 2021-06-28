@@ -37,6 +37,7 @@ class _PokemonDetailPageState
       backgroundColor: ColorSystem.white,
       body: Observer(builder: (_) {
         return SafeArea(
+          bottom: false,
           child: Column(
             children: [
               SizedBox(

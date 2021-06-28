@@ -66,6 +66,10 @@ class _PokemonsPageState
                       ),
                       Expanded(
                           child: GridView.count(
+                              childAspectRatio:
+                                  ((Constrains.fullWidth(context) - 64 - 16) /
+                                          2) /
+                                      (80 + 32 + 36),
                               mainAxisSpacing:
                                   Constrains.layoutSpace(LayoutSpace.s),
                               crossAxisSpacing:
